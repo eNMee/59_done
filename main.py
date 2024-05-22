@@ -1,7 +1,10 @@
 from CreateProject import create_project
 import os.path
 from os import path
+
+from DeleteProject import delete_project
 from UpdateProject import update_project
+
 
 def main():
     while True:
@@ -21,7 +24,7 @@ def main():
         elif choice == "2":
             update_project()
         elif choice == "3":
-            pass
+            delete_project()
         elif choice == "4":
             pass
         elif choice == "5":
