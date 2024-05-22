@@ -4,6 +4,7 @@ from os import path
 
 from DeleteProject import delete_project
 from UpdateProject import update_project
+from CreateTask import create_task
 
 
 def main():
@@ -26,7 +27,7 @@ def main():
         elif choice == "3":
             delete_project()
         elif choice == "4":
-            pass
+            create_task()
         elif choice == "5":
             pass
         elif choice == "6":
