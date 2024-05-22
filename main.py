@@ -1,3 +1,4 @@
+from Change_Task import change_task
 from CreateProject import create_project
 import os.path
 from os import path
@@ -29,7 +30,7 @@ def main():
         elif choice == "4":
             create_task()
         elif choice == "5":
-            pass
+            change_task()
         elif choice == "6":
             pass
         elif choice == "7":
