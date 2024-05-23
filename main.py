@@ -40,4 +40,6 @@ def main():
     except KeyboardInterrupt as e:
         print("\nError: keyboard interrupt!")
 
-main()
+
+if __name__ == '__main__':
+    main()
